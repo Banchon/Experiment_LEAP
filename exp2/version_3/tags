@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CINTEGER_A_H	Cinteger_A.h	2;"	d	language:C++
+CINTEGER_B_H	Cinteger_B.h	2;"	d	language:C++
+Cinteger_A	Cinteger_A.h	/^		Cinteger_A() : i(0) { }$/;"	f	language:C++	class:Cinteger_A	access:public	signature:()
+Cinteger_A	Cinteger_A.h	/^		Cinteger_A(int k) : i(k) { }$/;"	f	language:C++	class:Cinteger_A	access:public	signature:(int k)
+Cinteger_A	Cinteger_A.h	/^class Cinteger_A {$/;"	c	language:C++
+Cinteger_A::Cinteger_A	Cinteger_A.h	/^		Cinteger_A() : i(0) { }$/;"	f	language:C++	class:Cinteger_A	access:public	signature:()
+Cinteger_A::Cinteger_A	Cinteger_A.h	/^		Cinteger_A(int k) : i(k) { }$/;"	f	language:C++	class:Cinteger_A	access:public	signature:(int k)
+Cinteger_A::Deserialize	Cinteger_A.cpp	/^bool Cinteger_A::Deserialize(const char *pFilePath) {$/;"	f	language:C++	class:Cinteger_A	signature:(const char *pFilePath)
+Cinteger_A::Deserialize	Cinteger_A.cpp	/^int Cinteger_A::Deserialize(int fd) {$/;"	f	language:C++	class:Cinteger_A	signature:(int fd)
+Cinteger_A::Deserialize	Cinteger_A.h	/^		bool Deserialize(const char *pFilePath);$/;"	p	language:C++	class:Cinteger_A	access:public	signature:(const char *pFilePath)
+Cinteger_A::Deserialize	Cinteger_A.h	/^		int Deserialize(int fd);$/;"	p	language:C++	class:Cinteger_A	access:public	signature:(int fd)
+Cinteger_A::Serialize	Cinteger_A.cpp	/^bool Cinteger_A::Serialize(const char *pFilePath) const {$/;"	f	language:C++	class:Cinteger_A	signature:(const char *pFilePath) const
+Cinteger_A::Serialize	Cinteger_A.cpp	/^int Cinteger_A::Serialize(int fd) const {$/;"	f	language:C++	class:Cinteger_A	signature:(int fd) const
+Cinteger_A::Serialize	Cinteger_A.h	/^		bool Serialize(const char *pFilePath) const;$/;"	p	language:C++	class:Cinteger_A	access:public	signature:(const char *pFilePath) const
+Cinteger_A::Serialize	Cinteger_A.h	/^		int Serialize(int fd) const;$/;"	p	language:C++	class:Cinteger_A	access:public	signature:(int fd) const
+Cinteger_A::i	Cinteger_A.h	/^		int i;$/;"	m	language:C++	class:Cinteger_A	access:private
+Cinteger_A::print	Cinteger_A.h	/^		void print() const {$/;"	f	language:C++	class:Cinteger_A	access:public	signature:() const
+Cinteger_A::~Cinteger_A	Cinteger_A.h	/^		virtual ~Cinteger_A() { }$/;"	f	language:C++	class:Cinteger_A	access:public	signature:()
+Cinteger_B	Cinteger_B.h	/^		Cinteger_B() : i(0), j(0) { }$/;"	f	language:C++	class:Cinteger_B	access:public	signature:()
+Cinteger_B	Cinteger_B.h	/^		Cinteger_B(int m, int n) : i(k), j(m) { }$/;"	f	language:C++	class:Cinteger_B	access:public	signature:(int m, int n)
+Cinteger_B	Cinteger_B.h	/^class Cinteger_B {$/;"	c	language:C++
+Cinteger_B::Cinteger_B	Cinteger_B.h	/^		Cinteger_B() : i(0), j(0) { }$/;"	f	language:C++	class:Cinteger_B	access:public	signature:()
+Cinteger_B::Cinteger_B	Cinteger_B.h	/^		Cinteger_B(int m, int n) : i(k), j(m) { }$/;"	f	language:C++	class:Cinteger_B	access:public	signature:(int m, int n)
+Cinteger_B::Deserialize	Cinteger_B.cpp	/^bool Cinteger_B::Deserialize(const char *pFilePath) {$/;"	f	language:C++	class:Cinteger_B	signature:(const char *pFilePath)
+Cinteger_B::Deserialize	Cinteger_B.cpp	/^int Cinteger_B::Deserialize(int fd) {$/;"	f	language:C++	class:Cinteger_B	signature:(int fd)
+Cinteger_B::Deserialize	Cinteger_B.h	/^		bool Deserialize(const char *pFilePath);$/;"	p	language:C++	class:Cinteger_B	access:public	signature:(const char *pFilePath)
+Cinteger_B::Deserialize	Cinteger_B.h	/^		int Deserialize(int fd);$/;"	p	language:C++	class:Cinteger_B	access:public	signature:(int fd)
+Cinteger_B::Serialize	Cinteger_B.cpp	/^bool Cinteger_B::Serialize(const char *pFilePath) const {$/;"	f	language:C++	class:Cinteger_B	signature:(const char *pFilePath) const
+Cinteger_B::Serialize	Cinteger_B.cpp	/^int Cinteger_B::Serialize(int fd) const {$/;"	f	language:C++	class:Cinteger_B	signature:(int fd) const
+Cinteger_B::Serialize	Cinteger_B.h	/^		bool Serialize(const char *pFilePath) const;$/;"	p	language:C++	class:Cinteger_B	access:public	signature:(const char *pFilePath) const
+Cinteger_B::Serialize	Cinteger_B.h	/^		int Serialize(int fd) const;$/;"	p	language:C++	class:Cinteger_B	access:public	signature:(int fd) const
+Cinteger_B::i	Cinteger_B.h	/^		int i;$/;"	m	language:C++	class:Cinteger_B	access:private
+Cinteger_B::j	Cinteger_B.h	/^		int j;$/;"	m	language:C++	class:Cinteger_B	access:private
+Cinteger_B::print	Cinteger_B.h	/^		void print() const {$/;"	f	language:C++	class:Cinteger_B	access:public	signature:() const
+Cinteger_B::~Cinteger_B	Cinteger_B.h	/^		virtual ~Cinteger_B() { }$/;"	f	language:C++	class:Cinteger_B	access:public	signature:()
+DEFAULT_FILE_PERMISSION	filePermission.h	3;"	d	language:C++
+Deserialize	Cinteger_A.cpp	/^bool Cinteger_A::Deserialize(const char *pFilePath) {$/;"	f	language:C++	class:Cinteger_A	signature:(const char *pFilePath)
+Deserialize	Cinteger_A.cpp	/^int Cinteger_A::Deserialize(int fd) {$/;"	f	language:C++	class:Cinteger_A	signature:(int fd)
+Deserialize	Cinteger_A.h	/^		bool Deserialize(const char *pFilePath);$/;"	p	language:C++	class:Cinteger_A	access:public	signature:(const char *pFilePath)
+Deserialize	Cinteger_A.h	/^		int Deserialize(int fd);$/;"	p	language:C++	class:Cinteger_A	access:public	signature:(int fd)
+Deserialize	Cinteger_B.cpp	/^bool Cinteger_B::Deserialize(const char *pFilePath) {$/;"	f	language:C++	class:Cinteger_B	signature:(const char *pFilePath)
+Deserialize	Cinteger_B.cpp	/^int Cinteger_B::Deserialize(int fd) {$/;"	f	language:C++	class:Cinteger_B	signature:(int fd)
+Deserialize	Cinteger_B.h	/^		bool Deserialize(const char *pFilePath);$/;"	p	language:C++	class:Cinteger_B	access:public	signature:(const char *pFilePath)
+Deserialize	Cinteger_B.h	/^		int Deserialize(int fd);$/;"	p	language:C++	class:Cinteger_B	access:public	signature:(int fd)
+FILE_PERMISSION_H	filePermission.h	2;"	d	language:C++
+OBJ	makefile	/^OBJ = Cinteger_A.o SerializerForAs.o test.o$/;"	m	language:Make
+Serialize	Cinteger_A.cpp	/^bool Cinteger_A::Serialize(const char *pFilePath) const {$/;"	f	language:C++	class:Cinteger_A	signature:(const char *pFilePath) const
+Serialize	Cinteger_A.cpp	/^int Cinteger_A::Serialize(int fd) const {$/;"	f	language:C++	class:Cinteger_A	signature:(int fd) const
+Serialize	Cinteger_A.h	/^		bool Serialize(const char *pFilePath) const;$/;"	p	language:C++	class:Cinteger_A	access:public	signature:(const char *pFilePath) const
+Serialize	Cinteger_A.h	/^		int Serialize(int fd) const;$/;"	p	language:C++	class:Cinteger_A	access:public	signature:(int fd) const
+Serialize	Cinteger_B.cpp	/^bool Cinteger_B::Serialize(const char *pFilePath) const {$/;"	f	language:C++	class:Cinteger_B	signature:(const char *pFilePath) const
+Serialize	Cinteger_B.cpp	/^int Cinteger_B::Serialize(int fd) const {$/;"	f	language:C++	class:Cinteger_B	signature:(int fd) const
+Serialize	Cinteger_B.h	/^		bool Serialize(const char *pFilePath) const;$/;"	p	language:C++	class:Cinteger_B	access:public	signature:(const char *pFilePath) const
+Serialize	Cinteger_B.h	/^		int Serialize(int fd) const;$/;"	p	language:C++	class:Cinteger_B	access:public	signature:(int fd) const
+i	Cinteger_A.h	/^		int i;$/;"	m	language:C++	class:Cinteger_A	access:private
+i	Cinteger_B.h	/^		int i;$/;"	m	language:C++	class:Cinteger_B	access:private
+j	Cinteger_B.h	/^		int j;$/;"	m	language:C++	class:Cinteger_B	access:private
+print	Cinteger_A.h	/^		void print() const {$/;"	f	language:C++	class:Cinteger_A	access:public	signature:() const
+print	Cinteger_B.h	/^		void print() const {$/;"	f	language:C++	class:Cinteger_B	access:public	signature:() const
+~Cinteger_A	Cinteger_A.h	/^		virtual ~Cinteger_A() { }$/;"	f	language:C++	class:Cinteger_A	access:public	signature:()
+~Cinteger_B	Cinteger_B.h	/^		virtual ~Cinteger_B() { }$/;"	f	language:C++	class:Cinteger_B	access:public	signature:()
