@@ -17,7 +17,7 @@ bool Cinteger_B::Serialize(int fd) {
 }
 
 
-CSerializable * Cinteger_B::Deserializable(int fd) {
+CSerializable * Cinteger_B::Deserialize(int fd) {
 	if(fd == 0)
 		return 0;
 

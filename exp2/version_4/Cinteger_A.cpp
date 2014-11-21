@@ -7,7 +7,7 @@ bool Cinteger_A::Serialize(int fd) {
 		return false;
 
 	if(write(fd, &i, sizeof(int)) == -1)
-		return false
+		return false;
 
 	return true;
 }
@@ -16,7 +16,7 @@ CSerializable * Cinteger_A::Deserialize(int fd) {
 	if (fd == -1)
 		return 0;
 
-	Cinteger_A *ptr == new Cinteger_A;
+	Cinteger_A *ptr = new Cinteger_A;
 	if(ptr == 0)
 		return 0;
 

@@ -8,4 +8,5 @@ SerializerForAs.o : SerializerForAs.cpp SerializerForAs.h Cinteger_A.h
 	g++ -c -o SerializerForAs.o SerializerForAs.cpp --std=c++11
 test.o : test.cpp SerializerForAs.h Cinteger_A.h
 	g++ -c -o test.o test.cpp --std=c++11
-
+clean :
+	rm test data.dat

@@ -2,8 +2,11 @@
 #define CINTEGER_B_H
 
 #include "Serializable.h"
+#include <iostream>
+using std::cout;
+using std::endl;
 
-class Cinteger_B : CSerializable {
+class Cinteger_B : public CSerializable {
 	public :
 		Cinteger_B() : i(0), j(0) { }
 		Cinteger_B(int m, int n) : i(m), j(n) { }

@@ -10,4 +10,5 @@ Serializer.o : Serializer.cpp Serializer.h Cinteger_A.h Cinteger_B.h filePermiss
 	g++ -c -o Serializer.o Serializer.cpp --std=c++11
 test.o : test.cpp Cinteger_A.h Cinteger_B.h Serializer.h
 	g++ -c -o test.o test.cpp --std=c++11
-
+clean :
+	rm test data.dat

@@ -47,9 +47,9 @@ bool CSerializer::Deserialize(const char *pFilePath, vector<CSerializable *> &v)
 			break;
 
 		for(int i = 0; i < m_vHandleRange.size(); i++) {
-			if(m_vHandleRange[i].GetType == nType)
+			if(m_vHandleRange[i]->GetType() == nType)
 			{
-				CSerializable *ptr = m_vHandleRange[i].Deserialize(fd);
+				CSerializable *ptr = m_vHandleRange[i]->Deserialize(fd);
 				if(ptr == 0) {
 					close(fd);
 					return false;
